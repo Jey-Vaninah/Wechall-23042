@@ -101,7 +101,20 @@ How ? : Quite easy, tryouts use `cat` command which the path is not specify, so 
 - **step1**: Here is an example of cat command ( put it in your home directory for example)
 
 ```c
-//Colleo eto ilay code C nalefako iny
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+
+int main(int argc, char *argv[]) {
+    FILE *fp = fopen(argv[1], "w");
+    char buf[16];
+    memset(buf, 0, sizeof buf);
+    lseek(3, 0, SEEK_SET);
+    read(3, buf, sizeof buf);
+    fprintf(fp, "%s", buf);
+    return 0;
+}
+
 ```
 
 - **step2**: Create a file in your home directory called `seed` ('cause it's required by tryouts)
