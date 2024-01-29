@@ -43,6 +43,16 @@ ls -a
 cat solution
 ```
 
+## Level 3
+```bash
+cd /home/level
+ls -a
+cd 03
+ls -a
+cat .bash_history
+```
+
+
 ## Level 4
 ```bash
 cd /home/user/username/level
