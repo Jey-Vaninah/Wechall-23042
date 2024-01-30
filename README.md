@@ -1,6 +1,6 @@
 # WECHALL STD23042 :seedling:
 
-Pour commencer le challenge, il faut se connecter sur votre compte ssh: sssh -p 19198 user@warchaal.net
+Pour commencer le challenge, il faut se connecter sur votre compte ssh: sssh -p 19198 user@warchall.net
 Nous allons utiliser ces commande:
 
 - **cd**: changer la direction
